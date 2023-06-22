@@ -14,12 +14,12 @@ function App() {
 <Navbar />
 <Routes>
           
-          <Route path='/' element={<Users />} />
-          <Route path='/login' element={<Login />} />
-          <Route path='/create' element={<UserCreate />} />
-          <Route path='/update/:id' element={<UserUpdate />} />
-          <Route path='/picture' element={<Picture />} />
-          <Route path='/repicture' element={<Repicture />} />
+          <Route path='/react-ken' element={<Users />} />
+          <Route path='/react-ken/login' element={<Login />} />
+          <Route path='/react-ken/create' element={<UserCreate />} />
+          <Route path='/react-ken/update/:id' element={<UserUpdate />} />
+          <Route path='/react-ken/picture' element={<Picture />} />
+          <Route path='/react-ken/repicture' element={<Repicture />} />
         </Routes>
     </div>
   );
