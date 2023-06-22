@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: react-ken-frontend
+  name: react-ken-frontend
+  namespace: ken-kub
+spec:
+
+  selector:
+    matchLabels:
+      app: react-ken-frontend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: react-ken-frontend
+    spec:
+      containers:
+      - image: thitiyan/react-project
+        name: react-project
+        resources: {}
+status: {}
